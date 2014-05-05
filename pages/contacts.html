@@ -1,18 +1,22 @@
 <h1>Contact Us</h1>
+
 <div class="section contacts">
-    <div class="section w80">
-        <div class="input-icon mright">
-            <i class="icon-envelope"></i>
-            <input type="text" name="email" placeholder="YOUR E-MAIL" class="mail">
+    <form name="contactForm" id="contactForm" action="sendmail.php" method="post">
+        <div class="section w80">
+            <div class="input-icon mright">
+                <i class="icon-envelope"></i>
+                <input type="text" name="email" placeholder="YOUR E-MAIL" class="mail">
+            </div>
+            <div class="input-icon mleft">
+                <i class="icon-user"></i>
+                <input type="text" name="name" placeholder="YOUR NAME" class="name">
+            </div>
+            <textarea form="contactForm" name="message" class="message" placeholder="YOUR MESSAGE"></textarea>
+
+            <input type="submit" value="SEND"/>
         </div>
-        <div class="input-icon mleft">
-            <i class="icon-user"></i>
-            <input type="text" name="name" placeholder="YOUR NAME" class="name">
-        </div>
-        <textarea name="message" class="message" placeholder="YOUR MESSAGE"></textarea>
-    </div>
+    </form>
     <div class="section w80">
-        <button name="submit">SEND</button>
         <div class="fright">
             <a class="social minibutton" href="#">
                 <i class="icon-twitter"></i>
@@ -26,6 +30,8 @@
         </div>
     </div>
     <h4>For More Info</h4>
+
     <p><span>Kasun : 0712169268</span></p>
+
     <p><span>Madawa: 0758120726</span></p>
 </div>

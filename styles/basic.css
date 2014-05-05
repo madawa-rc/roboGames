@@ -178,6 +178,29 @@ textarea {
 textarea {
     padding: 15px 20px;
 }
+input[type=submit]{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    padding: 6px 30px;
+    border: 2px solid rgba(255, 255, 255, 0);
+    background: rgba(0, 0, 0, 0.6);
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 20px;
+    color: rgba(255, 255, 255, 0.6);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    outline: none;
+}
+input[type=submit]:hover{
+    border-color: #f26522;
+    color: #f26522;
+    box-shadow: 0 0 2px #f26522, inset 0 0 2px #f26522;
+}
+
 input:focus {
     outline: none;
     border: 2px solid #f26522;
