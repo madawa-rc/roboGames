@@ -7,7 +7,14 @@
         margin-top: 9px;
     }
 </style>
-
+<script type="text/javascript">
+function isNumberKey(evt){
+    var charCode = (evt.which) ? evt.which : event.keyCode
+    if (charCode > 31 && (charCode < 48 || charCode > 57))
+        return false;
+    return true;
+}
+</script>
 <h2>University Registration Form</h2>
 <div class="section contacts">
     <form name="ugRegisterForm" id="ugRegisterForm" action="register.php" method="post">
@@ -39,12 +46,12 @@
 
             <div class="input-icon mleft">
                 <i class="icon-phone"></i>
-                <input type="text" class="name" name="leader_phone" placeholder="Group Leader Contact Number" required="true"/>
+                <input type="text" class="name" name="leader_phone" placeholder="Group Leader Contact Number" required="true" maxlength="10" onkeypress="return isNumberKey(event)"/>
             </div>
 
             <div class="input-icon mright">
                 <i class="icon-envelope"></i>
-                <input type="text" class="mail" name="leader_mail" placeholder="Group Leader Email"/>
+                <input type="email" class="mail" name="leader_mail" placeholder="Group Leader Email"/>
             </div>
         </div>
 
@@ -58,7 +65,7 @@
 
             <div class="input-icon mleft">
                 <i class="icon-envelope"></i>
-                <input type="text" class="mail" name="member1_mail" placeholder="Email"/>
+                <input type="email" class="mail" name="member1_mail" placeholder="Email"/>
             </div>
         </div>
         <div class="section w80">
@@ -69,7 +76,7 @@
 
             <div class="input-icon mleft">
                 <i class="icon-envelope"></i>
-                <input type="text" class="mail" name="member2_mail" placeholder="Email"/>
+                <input type="email" class="mail" name="member2_mail" placeholder="Email"/>
             </div>
         </div>
         <div class="section w80">
@@ -80,7 +87,7 @@
 
             <div class="input-icon mleft">
                 <i class="icon-envelope"></i>
-                <input type="text" class="mail" name="member3_mail" placeholder="Email"/>
+                <input type="email" class="mail" name="member3_mail" placeholder="Email"/>
             </div>
         </div>
         <div class="section w80">
@@ -91,7 +98,7 @@
 
             <div class="input-icon mleft">
                 <i class="icon-envelope"></i>
-                <input type="text" class="mail" name="member4_mail" placeholder="Email"/>
+                <input type="email" class="mail" name="member4_mail" placeholder="Email"/>
             </div>
         </div>
 
