@@ -17,7 +17,7 @@ function isNumberKey(evt){
 </script>
 <h2>University Registration Form</h2>
 <div class="section contacts">
-    <form name="ugRegisterForm" id="ugRegisterForm" action="register.php" method="post">
+    <form name="ugRegisterForm" id="ugRegisterForm" action="register_ug.php" method="post">
         <h4><span class="glcolor">University Details</span></h4>
 
         <div class="section w80">
@@ -41,17 +41,24 @@ function isNumberKey(evt){
         <div class="section w80">
             <div class="input-icon mright">
                 <i class="icon-user"></i>
-                <input type="text" class="name" name="group_leader" placeholder="Group Leader" required="true"/>
-            </div>
-
-            <div class="input-icon mleft">
-                <i class="icon-phone"></i>
-                <input type="text" class="name" name="leader_phone" placeholder="Group Leader Contact Number" required="true" maxlength="10" onkeypress="return isNumberKey(event)"/>
+                <input type="text" class="name" name="group_leader" placeholder="Name" required="true"/>
             </div>
 
             <div class="input-icon mright">
                 <i class="icon-envelope"></i>
-                <input type="email" class="mail" name="leader_mail" placeholder="Group Leader Email"/>
+                <input type="email" class="mail" name="leader_mail" placeholder="Email"/>
+            </div>
+		</div>
+        
+		<div class="section w80">
+            <div class="input-icon mleft">
+                <i class="icon-phone"></i>
+                <input type="text" class="name" name="leader_phone" placeholder="Contact Number" required="true" maxlength="10" onkeypress="return isNumberKey(event)"/>
+            </div>
+
+            <div class="input-icon mleft">
+                <i class="icon-user"></i>
+                <input type="text" class="name" name="leader_nic" placeholder="NIC" maxlength="10" required="true"/>
             </div>
         </div>
 
@@ -63,9 +70,9 @@ function isNumberKey(evt){
                 <input type="text" class="name" name="member1_name" placeholder="Name"/>
             </div>
 
-            <div class="input-icon mleft">
-                <i class="icon-envelope"></i>
-                <input type="email" class="mail" name="member1_mail" placeholder="Email"/>
+            <div class="input-icon mright">
+                <i class="icon-user"></i>
+                <input type="text" class="name" name="member1_nic" placeholder="NIC" maxlength="10"/>
             </div>
         </div>
         <div class="section w80">
@@ -74,9 +81,9 @@ function isNumberKey(evt){
                 <input type="text" class="name" name="member2_name" placeholder="Name"/>
             </div>
 
-            <div class="input-icon mleft">
-                <i class="icon-envelope"></i>
-                <input type="email" class="mail" name="member2_mail" placeholder="Email"/>
+            <div class="input-icon mright">
+                <i class="icon-user"></i>
+                <input type="text" class="name" name="member2_nic" placeholder="NIC" maxlength="10"/>
             </div>
         </div>
         <div class="section w80">
@@ -85,9 +92,9 @@ function isNumberKey(evt){
                 <input type="text" class="name" name="member3_name" placeholder="Name"/>
             </div>
 
-            <div class="input-icon mleft">
-                <i class="icon-envelope"></i>
-                <input type="email" class="mail" name="member3_mail" placeholder="Email"/>
+            <div class="input-icon mright">
+                <i class="icon-user"></i>
+                <input type="text" class="name" name="member3_nic" placeholder="NIC" maxlength="10"/>
             </div>
         </div>
         <div class="section w80">
@@ -96,9 +103,9 @@ function isNumberKey(evt){
                 <input type="text" class="name" name="member4_name" placeholder="Name"/>
             </div>
 
-            <div class="input-icon mleft">
-                <i class="icon-envelope"></i>
-                <input type="email" class="mail" name="member4_mail" placeholder="Email"/>
+            <div class="input-icon mright">
+                <i class="icon-user"></i>
+                <input type="text" class="name" name="member4_nic" placeholder="NIC" maxlength="10"/>
             </div>
         </div>
 
