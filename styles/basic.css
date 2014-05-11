@@ -3,11 +3,11 @@
     position: relative;
 }
 .glcolor {
-    color: #f26522;
-    text-shadow: 0 0 30px #f26522;
+    color: #33cc99;
+    text-shadow: 0 0 30px #33cc99;
 }
 .bcolor {
-    color: #f26522;
+    color: #33cc99;
 }
 .fleft {
     float: left;
@@ -95,7 +95,7 @@ body {
 }
 a {
     text-decoration: none;
-    color: #f26522;
+    color: #33cc99;
     -webkit-transition: color 0.5s ease, text-shadow 0.5s ease, background 0.5s ease;
     -moz-transition: color 0.5s ease, text-shadow 0.5s ease, background 0.5s ease;
     -ms-transition: color 0.5s ease, text-shadow 0.5s ease, background 0.5s ease;
@@ -150,7 +150,7 @@ h4 {
 blockquote {
     font-style: italic;
     padding: 0 40px;
-    border-left: 2px solid #f26522;
+    border-left: 2px solid #33cc99;
     margin: 1em 0;
 }
 input,
@@ -196,18 +196,18 @@ input[type=submit]{
     outline: none;
 }
 input[type=submit]:hover{
-    border-color: #f26522;
-    color: #f26522;
-    box-shadow: 0 0 2px #f26522, inset 0 0 2px #f26522;
+    border-color: #33cc99;
+    color: #33cc99;
+    box-shadow: 0 0 2px #33cc99, inset 0 0 2px #33cc99;
 }
 
 input:focus {
     outline: none;
-    border: 2px solid #f26522;
+    border: 2px solid #33cc99;
 }
 textarea:focus {
     outline: none;
-    border: 2px solid #f26522;
+    border: 2px solid #33cc99;
 }
 section {
     margin: 1em 0;
@@ -243,9 +243,9 @@ button {
     outline: none;
 }
 button:hover {
-    border-color: #f26522;
-    color: #f26522;
-    box-shadow: 0 0 2px #f26522, inset 0 0 2px #f26522;
+    border-color: #33cc99;
+    color: #33cc99;
+    box-shadow: 0 0 2px #33cc99, inset 0 0 2px #33cc99;
 }
 button:active {
     opacity: 0.6;
@@ -274,8 +274,8 @@ button:active {
     transition: all 0.4s ease;
 }
 .input-icon i.active {
-    border-color: #f26522;
-    color: #f26522;
+    border-color: #33cc99;
+    color: #33cc99;
     opacity: 1;
 }
 .input-icon input {
@@ -346,9 +346,9 @@ button:active {
     text-shadow: none;
 }
 .minibutton:hover i {
-    border-color: #f26522;
-    color: #f26522;
-    box-shadow: 0 0 2px #f26522, inset 0 0 2px #f26522;
+    border-color: #33cc99;
+    color: #33cc99;
+    box-shadow: 0 0 2px #33cc99, inset 0 0 2px #33cc99;
 }
 .minibutton-big {
     height: 50px;
@@ -360,8 +360,8 @@ button:active {
     border-width: 3px;
 }
 .minibutton.shine i {
-    border-color: #f26522;
-    color: #f26522;
+    border-color: #33cc99;
+    color: #33cc99;
     box-shadow: none;
 }
 .minibutton.shine:hover i {
@@ -415,7 +415,7 @@ body {
     width: 100%;
     text-align: center;
     z-index: 0;
-    color: #f26522;
+    color: #33cc99;
     display: inline-block;
     opacity: 0;
     -webkit-transition: all 0.2s ease;
@@ -432,9 +432,9 @@ body {
     height: 20px;
     float: left;
     margin-right: 10px;
-    border: 2px solid #f26522;
+    border: 2px solid #33cc99;
     border-radius: 50%;
-    border-color: #f26522 transparent #f26522 transparent;
+    border-color: #33cc99 transparent #33cc99 transparent;
     -moz-animation: spin 1s infinite linear;
     -o-animation: spin 1s infinite linear;
     -webkit-animation: spin 1s infinite linear;
@@ -505,13 +505,13 @@ body {
 }
 .mainmenu .menuitem.active i {
     opacity: 1;
-    color: #f26522;
-    text-shadow: 0 0 60px #f26522;
+    color: #33cc99;
+    text-shadow: 0 0 60px #33cc99;
 }
 .mainmenu .menuitem.active .menu-title {
     opacity: 1;
-    color: #f26522;
-    text-shadow: 0 0 30px #f26522;
+    color: #33cc99;
+    text-shadow: 0 0 30px #33cc99;
 }
 .mainmenu .menucenter {
     position: absolute;
@@ -573,7 +573,7 @@ body {
     -ms-transform: scale(1);
     -o-transform: scale(1);
     transform: scale(1);
-    box-shadow: 0 0 0 2px #f26522;
+    box-shadow: 0 0 0 2px #33cc99;
 }
 .mainmenu #linecontainer {
     position: absolute;
@@ -612,7 +612,7 @@ body {
     position: absolute;
     width: 436px;
     height: 436px;
-    border: 2px solid #f26522;
+    border: 2px solid #33cc99;
     border-radius: 50%;
     box-shadow: inset 0 0 20px rgba(242, 101, 34, 0.1);
 }
@@ -689,7 +689,7 @@ body {
     opacity: 1;
 }
 .bigpage .menuitem.active {
-    border-left: 3px solid #f26522;
+    border-left: 3px solid #33cc99;
 }
 .bigpage .menuitem.active .menu-title {
     opacity: 1;
@@ -815,7 +815,7 @@ body {
 .skill .bar .bar-container .progress {
     position: absolute;
     height: 2px;
-    background: #f26522;
+    background: #33cc99;
     left: -80%;
     -webkit-transition: all 1s ease;
     -moz-transition: all 1s ease;
@@ -867,7 +867,7 @@ body {
     border-radius: 4px;
 }
 .portfolio a.filter-active {
-    background-color: #f26522;
+    background-color: #33cc99;
     color: #fff;
 }
 .portfolio .all-items {
@@ -999,7 +999,7 @@ body {
     font-size: 120%;
 }
 .post .tags {
-    color: #f26522;
+    color: #33cc99;
 }
 .post .post-body {
     color: rgba(255, 255, 255, 0.7);
