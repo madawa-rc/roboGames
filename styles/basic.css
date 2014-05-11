@@ -118,7 +118,7 @@ p {
 *::selection,
 input::selection,
 textarea::selection {
-    background: rgba(242, 101, 34, 0.3);
+    background: rgba(18, 242, 111, 0.30);
 }
 h1,
 h2,
