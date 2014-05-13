@@ -1,10 +1,10 @@
 <script type="text/javascript">
-function isNumberKey(evt){
-    var charCode = (evt.which) ? evt.which : event.keyCode
-    if (charCode > 31 && (charCode < 48 || charCode > 57))
-        return false;
-    return true;
-}
+    function isNumberKey(evt) {
+        var charCode = (evt.which) ? evt.which : event.keyCode
+        if (charCode > 31 && (charCode < 48 || charCode > 57))
+            return false;
+        return true;
+    }
 </script>
 <h2>Contact Us</h2>
 
@@ -21,9 +21,11 @@ function isNumberKey(evt){
             </div>
             <div class="input-icon mleft">
                 <i class="icon-phone"></i>
-                <input type="text" name="phone" placeholder="YOUR PHONE" class="phone" maxlength="10" required="true" onkeypress="return isNumberKey(event)">
+                <input type="text" name="phone" placeholder="YOUR PHONE" class="phone" maxlength="10" required="true"
+                       onkeypress="return isNumberKey(event)">
             </div>
-            <textarea form="contactForm" name="message" class="message" placeholder="YOUR MESSAGE" required="true"></textarea>
+            <textarea form="contactForm" name="message" class="message" placeholder="YOUR MESSAGE"
+                      required="true"></textarea>
 
             <div class="section w80">
                 <input type="submit" value="SEND"/>
@@ -32,10 +34,8 @@ function isNumberKey(evt){
     </form>
 
     <h4><span class="glcolor">More information</span></h4>
-    <div class="section w80">
-        <p><span>Kasun : 0712169268</span></p>
 
-        <p><span>Madawa: 0758120726</span></p>
+    <div class="section w50">
         <div class="fright">
             <a class="social minibutton" href="https://www.facebook.com/IESL.RoboCompetition" target="_blank">
                 <i class="icon-facebook"></i>
@@ -43,6 +43,11 @@ function isNumberKey(evt){
             <a class="social minibutton" href="https://plus.google.com/u/0/b/115981659066616841728/" target="_blank">
                 <i class="icon-google-plus"></i>
             </a>
+        </div>
+        <div class="fleft">
+            <span class="glcolor">Kasun :</span><span> 0712169268</span><br/>
+            <span class="glcolor">Madawa :</span><span>  0758120726</span><br/>
+            <span class="glcolor">Email :</span><span> robo2014@cse.mrt.ac.lk</span><br/>
         </div>
     </div>
 </div>
