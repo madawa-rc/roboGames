@@ -29,14 +29,14 @@ if (isset($_POST['email'])) {//if "email" is filled out, proceed
         $mail->Host = 'smtp.gmail.com'; // Specify main and backup server
         $mail->Port = 587;
         $mail->SMTPAuth = true; // Enable SMTP authentication
-        $mail->Username = 'sample@gmail.com'; // SMTP username
-        $mail->Password = 'samplePassword'; // SMTP password
+        $mail->Username = 'SMTP_USERNAME'; // SMTP username
+        $mail->Password = 'SMTP_PASSWORD'; // SMTP password
         $mail->SMTPSecure = 'tls'; // Enable encryption, 'ssl' also accepted
         
         $mail->AddReplyTo($_POST['email']);
         $mail->From = $_POST['email'];
         $mail->FromName = $_POST['name'];
-        $mail->addAddress('forward@gmail.com'); //forwarding address
+        $mail->addAddress('FORWARD_ADDRESS'); //forwarding address
         
         $mail->isHTML(true);
         $mail->Subject = 'ContactUs Form - RoboGames Website : '.$_POST['subject'];
